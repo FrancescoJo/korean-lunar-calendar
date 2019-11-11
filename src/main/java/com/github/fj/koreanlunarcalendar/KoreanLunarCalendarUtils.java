@@ -262,7 +262,7 @@ public final class KoreanLunarCalendarUtils {
      * @return converted {@link Date} object that holds gregorian date of given {@link KoreanLunarDate}.
      */
     @SuppressWarnings("MagicConstant")
-    public Date toGregorianDate(final KoreanLunarDate lunarDate) {
+    public static Date toGregorianDate(final KoreanLunarDate lunarDate) {
         final Calendar cal = GregorianCalendar.getInstance(TimeZone.getTimeZone("Asia/Seoul"));
         cal.clear();
         cal.set(lunarDate.solYear, CALENDAR_MONTHS[lunarDate.solMonth - 1], lunarDate.solDay);
