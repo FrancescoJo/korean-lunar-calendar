@@ -44,7 +44,7 @@ You must install [jitpack.io](https://jitpack.io/) plugin to your build script i
 
 ### From solar date to lunar date
 
-    System.out.println(getSolarDayOf(2000, 1, 1));
+    System.out.println(getLunarDateOf(2000, 1, 1));
     
     output:
     KoreanLunarDate{solYear=2000, 

@@ -43,7 +43,7 @@
 
 ### 양력을 음력으로 바꿀 때
 
-    System.out.println(getSolarDayOf(2000, 1, 1));
+    System.out.println(getLunarDateOf(2000, 1, 1));
     
     결과:
     KoreanLunarDate{solYear=2000,
